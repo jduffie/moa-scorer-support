@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MOA Scorer — Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a; background: #fafafa;
+    padding: 2rem 1.2rem 4rem;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #eaeaea; background: #141414; } a { color: #6db3ff; } }
+  main { max-width: 680px; margin: 0 auto; }
+  header { border-bottom: 1px solid rgba(128,128,128,.25); padding-bottom: 1rem; margin-bottom: 1.5rem; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; }
+  .tag { color: #ff5a1f; font-weight: 600; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
+  a { color: #0a66c2; }
+  ul { padding-left: 1.2rem; }
+  .card { background: rgba(128,128,128,.08); border: 1px solid rgba(128,128,128,.2); border-radius: 12px; padding: 1rem 1.2rem; }
+  footer { margin-top: 3rem; font-size: .85rem; color: #888; border-top: 1px solid rgba(128,128,128,.25); padding-top: 1rem; }
+  code { background: rgba(128,128,128,.15); padding: .1em .35em; border-radius: 5px; font-size: .9em; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>MOA Scorer</h1>
+    <div class="tag">Measure rifle group sizes from a photo.</div>
+  </header>
+
+  <div class="card">
+    <strong>Need help?</strong> Email <a href="mailto:johnduffie91@gmail.com">johnduffie91@gmail.com</a>
+    and I'll get back to you. Please include your iPhone model, iOS version, and (if it helps) the target photo.
+  </div>
+
+  <h2>What it does</h2>
+  <p>Shoot a group on a supported grid target, photograph it with your phone, enter your distance, and MOA Scorer
+     reports each group's extreme spread in <strong>MOA and inches</strong> plus the <strong>windage and
+     elevation</strong> to your point of aim. Everything runs on your device.</p>
+
+  <h2>Supported targets</h2>
+  <ul>
+    <li>Action Target <strong>SI-13MPD</strong> "Rifle Sighting Target"</li>
+    <li>Thompson Target <strong>HALO 4643</strong> "Scope Alignment"</li>
+  </ul>
+
+  <h2>Quick help</h2>
+  <ul>
+    <li><strong>How do I measure?</strong> Capture or import a photo of the whole target, confirm the design,
+        enter your shooting distance, and read the per-diamond results.</li>
+    <li><strong>Why is the inch measurement the same at any distance?</strong> The printed grid is a fixed
+        physical scale, so group size in inches is a real measurement on the paper; true MOA is then computed
+        from the distance you enter.</li>
+    <li><strong>The aim point looks off.</strong> On a heavily shot-up diamond the auto aim can drift. Tap the
+        diamond, choose <code>Move aim</code>, and tap the true center — the numbers update instantly.</li>
+    <li><strong>A shot was missed or mis-counted.</strong> Tap the diamond and use <code>Add</code> or
+        <code>Remove</code> to correct the shots; group size recomputes live.</li>
+    <li><strong>It couldn't read the target.</strong> Fill the frame with the target, keep it flat and evenly
+        lit, and avoid heavy glare or shadow.</li>
+  </ul>
+
+  <footer>
+    MOA Scorer is an independent app and is not affiliated with Action Target or Thompson Target.
+    &middot; <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
